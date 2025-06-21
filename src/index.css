@@ -1,0 +1,112 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 7%;
+    --foreground: 0 0% 94%;
+
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 94%;
+
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 94%;
+
+    --primary: 255 91% 73%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 180 100% 70%;
+    --secondary-foreground: 0 0% 7%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 266 86% 70%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 94%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 266 86% 70%;
+
+    --radius: 0.75rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-theme-dark text-theme-light font-sans transition-colors duration-300;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-semibold;
+  }
+}
+
+@layer components {
+  .glowing-border {
+    @apply border border-theme-purple rounded-lg relative;
+  }
+  
+  .glowing-border:after {
+    content: '';
+    @apply absolute inset-0 rounded-lg;
+    box-shadow: 0 0 15px theme('colors.theme.purple');
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .glass-card {
+    @apply backdrop-blur-lg rounded-xl border bg-theme-dark-accent bg-opacity-50 border-white/10 transition-colors duration-300;
+  }
+  
+  .reveal-element {
+    @apply opacity-0;
+  }
+
+  .reveal-element.revealed {
+    @apply animate-reveal;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-theme-purple to-theme-cyan;
+  }
+  
+  .button-glow {
+    @apply relative inline-flex items-center justify-center px-6 py-3 overflow-hidden font-medium transition-all bg-theme-purple rounded-lg hover:bg-opacity-80;
+  }
+  
+  .button-glow:before {
+    content: '';
+    @apply absolute inset-0 rounded-lg;
+    box-shadow: 0 0 25px theme('colors.theme.purple');
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .button-glow:hover:before {
+    opacity: 0.7;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+}
