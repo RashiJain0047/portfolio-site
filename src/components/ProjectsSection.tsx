@@ -7,7 +7,7 @@ const projects = [
   {
     id: 1,
     title: "PCAS Website",
-    description: "Complete website design and development for Poornima College of Arts & Science with modern UI/UX and responsive design.",
+    description: "Complete website design with modern UI/UX and responsive design.",
     image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=900",
     category: "uiux",
     link: "https://www.figma.com/proto/BhLFnpDZm8tGbRtFifsWZf/PCAS-WEBSITE?node-id=481-111&starting-point-node-id=481%3A111&t=2mO8Mon6NNN5vU9A-1"
