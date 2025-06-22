@@ -34,7 +34,7 @@ const projects = [
     description: "Modern magazine layout design with creative typography and visual hierarchy for better readability.",
     image: "https://images.unsplash.com/photo-1618004652321-13a63e576b80?auto=format&fit=crop&q=80&w=900",
     category: "graphic",
-    link: "#"
+    link: "https://www.canva.com/design/DAGjF5Ygcm0/bQz6HzjEewjwMqKXhsq4eg/view?utm_content=DAGjF5Ygcm0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb4beb71cfd"
   },
   // {
   //   id: 5,
@@ -50,7 +50,7 @@ const projects = [
     description: "Creative social media post designs for various platforms including promotional content and brand awareness campaigns.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=900",
     category: "graphic",
-    link: "https://www.behance.net/rashijain047"
+    link: "https://www.canva.com/design/DAGjF5Ygcm0/bQz6HzjEewjwMqKXhsq4eg/view?utm_content=DAGjF5Ygcm0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb4beb71cfd"
   }
 ];
 
