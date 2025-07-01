@@ -26,7 +26,9 @@ const projects = [
   //   description: "Creative Instagram and Facebook story designs for various brands with engaging visual elements and animations.",
   //   image: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&q=80&w=900",
   //   category: "graphic",
-  //   link: "#"
+  //      link: "https://www.canva.com/design/DAGjF5Ygcm0/bQz6HzjEewjwMqKXhsq4eg/view?utm_content=DAGjF5Ygcm0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb4beb71cfd"
+
+"
   // },
   {
     id: 4,
@@ -35,15 +37,17 @@ const projects = [
     image: "https://images.unsplash.com/photo-1618004652321-13a63e576b80?auto=format&fit=crop&q=80&w=900",
     category: "graphic",
     link: "https://www.canva.com/design/DAGjF5Ygcm0/bQz6HzjEewjwMqKXhsq4eg/view?utm_content=DAGjF5Ygcm0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb4beb71cfd"
+
   },
-  // {
-  //   id: 5,
-  //   title: "Newsletter Design",
-  //   description: "Professional newsletter templates with clean layouts and engaging visual elements for email marketing campaigns.",
-  //   image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=900",
-  //   category: "graphic",
-  //   link: "#"
-  // },
+  {
+    id: 5,
+     title: "Newsletter Design",
+    description: "Professional newsletter templates with clean layouts and engaging visual elements for email marketing campaigns.",
+    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=900",
+    category: "graphic",
+      link: "https://www.canva.com/design/DAGjF5Ygcm0/bQz6HzjEewjwMqKXhsq4eg/view?utm_content=DAGjF5Ygcm0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb4beb71cfd"
+
+   },
   {
     id: 6,
     title: "Social Media Posts",
